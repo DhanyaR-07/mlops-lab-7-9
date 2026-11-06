@@ -1,0 +1,22 @@
+$ python -m pytest -v
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\dhanya.r\OneDrive\Downloads\24AI021_ML_Lab-6,7\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\dhanya.r\OneDrive\Downloads\24AI021_ML_Lab-6,7
+plugins: anyio-4.16.0
+collecting ... collected 5 items
+
+tests/test_api.py::test_health_and_valid_prediction PASSED               [ 20%]
+tests/test_api.py::test_invalid_requests PASSED                          [ 40%]
+tests/test_pipeline.py::test_preprocess_removes_invalid_and_duplicates PASSED [ 60%]
+tests/test_pipeline.py::test_predict_output_shape PASSED                 [ 80%]
+tests/test_pipeline.py::test_predict_missing_feature_raises PASSED       [100%]
+
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\dhanya.r\OneDrive\Downloads\24AI021_ML_Lab-6,7\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 5 passed, 1 warning in 2.40s =========================
+

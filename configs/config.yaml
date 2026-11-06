@@ -1,0 +1,21 @@
+data:
+  raw_path: data/raw/housing.csv
+  processed_path: data/processed/housing_clean.csv
+  test_path: data/processed/test.csv
+  target: MedHouseVal
+
+training:
+  random_state: 42
+  test_size: 0.2
+
+model:
+  type: random_forest
+  n_estimators: 100
+  max_depth: 10
+
+paths:
+  model_path: models/model.joblib
+  metrics_path: reports/metrics.json
+
+mlflow:
+  experiment_name: housing-lab-7-9

@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+pyyaml
+fastapi
+uvicorn
+httpx
+pytest
+fpdf2

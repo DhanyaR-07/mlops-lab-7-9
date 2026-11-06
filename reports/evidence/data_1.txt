@@ -1,0 +1,3 @@
+$ python -m src.data
+Raw dataset saved to data/raw/housing.csv (20640 rows)
+
